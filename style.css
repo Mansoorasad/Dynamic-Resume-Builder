@@ -1,0 +1,88 @@
+body{
+    background:#ffc70a38
+}
+h1{
+    text-align:center;
+}
+form#resumeMain {
+    max-width:500px;
+    margin:auto;
+    background:#000000;
+    padding:40px;
+    border-radius:10px;
+}
+form#resumeMain input{
+    width:97%;
+    margin:10px 0;
+    padding:15px 5px;
+     border-radius:5px;
+}
+form#resumeMain textarea{
+    width:100%;
+    resize:none;
+}
+fieldset{
+    color:#ffffff;
+    border-color: #ffc70a;
+    margin-bottom:20px;
+     border-radius:10px;
+    padding:15px;
+}
+form#resumeMain button {
+    
+    background:#ffc70a;
+    padding:15px;
+    border-radius:5px;
+    border:none;
+}
+div#resumeBtn {
+    text-align: center;
+    margin:50px auto;
+    max-width: 700px;
+}
+
+.resume-wrap {
+    display: flex;
+ align-items: center;
+    gap:50px;
+}
+
+
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.edu h3,
+.edu p,
+.work h3,
+.work p,
+.skill h3,
+.skill p{
+    text-align:left;
+}
+#resumeBtn h3{
+    font-size:25px;
+}
+.profile-detail p {
+    font-size:22px;
+    margin-bottom:0
+}
+.edu ,
+.work ,
+.skill {
+    margin-top:50px;
+}
+
+
+@media(max-width:600px){
+    .resume-wrap {
+        
+        flex-direction: column;
+    }
+
+    .edu, .work, .skill {
+        padding: 0 30px;
+    }
+}
